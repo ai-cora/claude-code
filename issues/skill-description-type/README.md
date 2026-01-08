@@ -10,8 +10,8 @@ claude_code_version: 2.1.1
 
 Claude Code throws `TypeError: X.description.split is not a function` when a skill's YAML frontmatter has a `description` field that is an array instead of a string. This corrupts the terminal UI and breaks the command palette.
 
-**Status**: Ready to submit
-**Severity**: High
+**Status**: Ready to submit  
+**Severity**: High  
 
 ## Files
 
