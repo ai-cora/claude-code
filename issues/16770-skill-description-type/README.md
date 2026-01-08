@@ -1,7 +1,8 @@
 ---
 title: Skill Description Type Validation Bug
 github_issue: https://github.com/anthropics/claude-code/issues/16770
-status: submitted
+status: closed-duplicate
+duplicate_of: https://github.com/anthropics/claude-code/issues/16754
 severity: high
 claude_code_version: 2.1.1
 ---
@@ -10,8 +11,9 @@ claude_code_version: 2.1.1
 
 Claude Code throws `TypeError: X.description.split is not a function` when a skill's YAML frontmatter has a `description` field that is an array instead of a string. This corrupts the terminal UI and breaks the command palette.
 
-**Status**: Submitted
-**Issue**: [#16770](https://github.com/anthropics/claude-code/issues/16770)  
+**Status**: Closed (duplicate)
+**Our Issue**: [#16770](https://github.com/anthropics/claude-code/issues/16770)
+**Duplicate of**: [#16754](https://github.com/anthropics/claude-code/issues/16754)  
 **Severity**: High  
 
 ## Files

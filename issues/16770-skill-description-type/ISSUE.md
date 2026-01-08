@@ -3,7 +3,8 @@ title: CLI throws TypeError when skill description is not a string
 target_repo: anthropics/claude-code
 github_issue: https://github.com/anthropics/claude-code/issues/16770
 labels: [bug]
-status: submitted
+status: closed-duplicate
+duplicate_of: https://github.com/anthropics/claude-code/issues/16754
 ---
 
 # CLI throws TypeError when skill description is not a string
