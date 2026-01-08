@@ -18,3 +18,7 @@ issues/
     ├── minimal-repro.sh    # Minimal reproduction script
     └── ...            # Supporting files (screenshots, test harnesses, etc.)
 ```
+
+## Markdown Conventions
+
+- **Line breaks**: Use two trailing spaces at the end of a line to create a line break (for adjacent lines that should render separately)
